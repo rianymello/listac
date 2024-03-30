@@ -1,0 +1,431 @@
+/* General Styles */
+.frameIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.05rem;
+  right: 0.031rem;
+  bottom: -0.1rem;
+  left: -0.031rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.conheaNossos,
+.membros {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700; /* Changed font weight to bold for emphasis */
+  font-family: inherit;
+  z-index: 2;
+  text-align: right; /* Align the text to the right */
+}
+
+.membros {
+  font-weight: 700;
+  z-index: 1;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.75rem 0 0;
+}
+
+.component2 {
+  height: 1.313rem;
+  width: 4.313rem;
+  position: relative;
+  display: none;
+  z-index: 4;
+}
+
+.text {
+  width: 100%; /* Adjusted width to fill the container */
+  margin: 0 auto; /* Center the text horizontally */
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Changed to column layout */
+  align-items: center; /* Center the text horizontally */
+  justify-content: center; /* Center the text vertically */
+  padding: 3.313rem 0 4.375rem; /* Adjusted padding */
+  box-sizing: border-box;
+}
+
+.ellipseChild {
+  width: 19.375rem;
+  height: 27.375rem;
+  position: relative;
+  border-radius: 40px;
+  background: radial-gradient(50% 50%at 50% 50%, #346e43, #193521);
+  display: none;
+}
+
+.line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: rgba(14, 14, 14, 0.32);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.maskGroupIcon {
+  position: absolute;
+  width: calc(100% - 28.1px);
+  top: 0.9rem;
+  right: 0.906rem;
+  left: 0.85rem;
+  max-width: 100%;
+  overflow: hidden;
+  height: 11.931rem;
+  object-fit: cover;
+  z-index: 3;
+}
+
+.rectangle {
+  height: 13.688rem;
+  flex: 1;
+  position: relative;
+}
+
+.quadrantDivider,
+.text1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.text1 {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.quadrantDivider {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.625rem 0 1.313rem;
+}
+
+.anaCarlaA,
+.ellipseIcon {
+  position: relative;
+  z-index: 2;
+}
+
+.anaCarlaA {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.ellipseIcon {
+  height: 0.063rem;
+  width: 9.625rem;
+}
+
+.ellipseWrapper,
+.image,
+.maskGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ellipseWrapper {
+  height: 0;
+  flex-direction: row;
+  padding: 0 0.188rem;
+  box-sizing: border-box;
+}
+
+.image,
+.maskGroup {
+  align-self: stretch;
+}
+
+.maskGroup {
+  flex-direction: column;
+  gap: 1.063rem;
+}
+
+.image {
+  height: 2.938rem;
+  flex-direction: row;
+  padding: 0 1.5rem 0 3.188rem;
+  box-sizing: border-box;
+}
+
+.nuncViverraAliquet,
+.vitaeSapienPellentesque {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+
+.nuncViverraAliquet {
+  white-space: pre-wrap;
+}
+
+.liberoJustoLaoreet {
+  margin: 0;
+}
+
+.vitaeSapienPellentesqueContainer {
+  position: relative;
+  font-size: 0.75rem;
+  z-index: 2;
+}
+
+.ellipse {
+  flex: 0.9398;
+  border-radius: 40px;
+  background: radial-gradient(50% 50%at 50% 50%, #346e43, #193521);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.438rem 2.188rem 3.125rem 1.563rem;
+  box-sizing: border-box;
+  gap: 1.313rem;
+  min-width: 17.813rem;
+  max-width: 19.375rem;
+  z-index: 1;
+}
+
+.ellipseItem {
+  width: 19.375rem;
+  height: 27.375rem;
+  position: relative;
+  border-radius: 40px;
+  background: radial-gradient(50% 50%at 50% 50%, #3b6e49, #193521 99.8%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: rgba(14, 14, 14, 0.32);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.maskGroupIcon1 {
+  position: absolute;
+  width: calc(100% - 28.1px);
+  top: 0.9rem;
+  right: 0.906rem;
+  left: 0.85rem;
+  max-width: 100%;
+  overflow: hidden;
+  height: 11.931rem;
+  object-fit: contain;
+  z-index: 3;
+}
+
+.ellipseParent {
+  height: 13.688rem;
+  flex: 1;
+  position: relative;
+}
+
+.frameWrapper {
+  width: 13.688rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pandaPele {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.438rem;
+}
+
+.textIcon {
+  height: 0.063rem;
+  width: 9.625rem;
+  position: relative;
+  z-index: 2;
+}
+
+.textWrapper {
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.063rem 0 0.688rem;
+  box-sizing: border-box;
+}
+
+.nuncViverraAliquet1,
+.vitaeSapienPellentesque1 {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+
+.nuncViverraAliquet1 {
+  white-space: pre-wrap;
+}
+
+.liberoJustoLaoreet1 {
+  margin: 0;
+}
+
+.vitaeSapienPellentesqueContainer1 {
+  position: relative;
+  z-index: 2;
+}
+
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.375rem;
+}
+
+.ellipse1,
+.ellipseInner,
+.frameContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ellipseInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0.813rem 0 0.188rem;
+  text-align: left;
+  font-size: 0.75rem;
+}
+
+.ellipse1 {
+  flex: 1;
+  border-radius: 40px;
+  background: radial-gradient(50% 50%at 50% 50%, #3b6e49, #193521 99.8%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: column;
+  align-items: center;
+  padding: 1.438rem 1.438rem 3.125rem 1.313rem;
+  box-sizing: border-box;
+  gap: 1.938rem;
+  min-width: 17.813rem;
+  max-width: 19.375rem;
+  z-index: 1;
+  text-align: center; /* Center the text horizontally */
+}
+
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center; /* Adjusted to distribute items evenly */
+  gap: 0.688rem;
+  font-size: 1.5rem;
+}
+
+.group,
+.line {
+  display: flex;
+  max-width: 100%;
+}
+
+.line {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.group {
+  width: 80.25rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 2.688rem 0.688rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 2.25rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1050px) {
+  .conheaNossos,
+  .membros {
+    font-size: 1.813rem;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .group {
+    padding-bottom: 1.75rem;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .conheaNossos,
+  .membros {
+    font-size: 1.375rem;
+  }
+  .anaCarlaA {
+    font-size: 1.188rem;
+  }
+  .ellipse,
+  .image {
+    box-sizing: border-box;
+  }
+  .image {
+    padding-left: 1.25rem;
+  }
+  .ellipse {
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+    flex: 1;
+  }
+  .pandaPele {
+    font-size: 1.188rem;
+  }
+  .ellipse1 {
+    gap: 0.938rem 1.938rem;
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+  }
+}

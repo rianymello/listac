@@ -1,0 +1,9 @@
+.groupText {
+  height: 6.25rem;
+  width: 13.063rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -4.062rem;
+  left: 9.188rem;
+  z-index: 1;
+}

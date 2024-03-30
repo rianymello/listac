@@ -1,0 +1,70 @@
+.unnamedVectorIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 13.813rem;
+  max-height: 100%;
+  width: 23.563rem;
+}
+.rectangularMaskIcon {
+  position: absolute;
+  top: 26.2rem;
+  left: -0.031rem;
+  width: 45.938rem;
+  height: 26.206rem;
+  z-index: 1;
+}
+.michelangeloImageIcon {
+  position: absolute;
+  top: 10.625rem;
+  left: 19.688rem;
+  width: 25.875rem;
+  height: 41.813rem;
+  z-index: 2;
+}
+.maskGroupFrameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 100px 100px 100px 240px;
+  background-color: rgba(0, 0, 0, 0.13);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.maskGroupFrame,
+.maskGroupIcon {
+  position: absolute;
+  top: 0.875rem;
+  left: 1rem;
+  width: 30.625rem;
+  height: 26.625rem;
+  z-index: 4;
+}
+.maskGroupFrame {
+  top: 15.625rem;
+  left: 6.688rem;
+  border-radius: 100px 100px 100px 240px;
+  background-color: rgba(0, 0, 0, 0.13);
+  width: 32.75rem;
+  height: 28.438rem;
+  z-index: 3;
+}
+.pexelsMichelangeloBuonarrotiIcon {
+  position: absolute;
+  top: 12.813rem;
+  left: 7.5rem;
+  width: 36.688rem;
+  height: 33.438rem;
+  object-fit: cover;
+  z-index: 5;
+}
+.threeVectors {
+  width: 45.938rem;
+  height: 52.813rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -0.187rem;
+}

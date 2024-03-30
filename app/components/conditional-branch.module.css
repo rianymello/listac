@@ -1,0 +1,332 @@
+.capturaDeTela20240228100Icon {
+  width: 2.625rem;
+  height: 2.688rem;
+  position: relative;
+  object-fit: cover;
+}
+.capturaDeTela20240228100Wrapper {
+  height: 2.644rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0.156rem;
+  box-sizing: border-box;
+}
+.sobre {
+  position: relative;
+  display: inline-block;
+  min-width: 2.313rem;
+  cursor: pointer;
+}
+.sobreWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.031rem 0 0;
+}
+.membros {
+  position: relative;
+  display: inline-block;
+  min-width: 3.75rem;
+}
+.membrosWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.031rem 0 0;
+}
+.propostas {
+  position: relative;
+  display: inline-block;
+  min-width: 4rem;
+  cursor: pointer;
+}
+.propostasWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.031rem 0 0;
+}
+.contactos {
+  position: relative;
+  display: inline-block;
+  min-width: 4rem;
+  cursor: pointer;
+}
+.contactosWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.031rem 0 0;
+}
+.sujestaobotaoChild {
+  height: 3rem;
+  width: 9.625rem;
+  position: relative;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  display: none;
+}
+.sujestes {
+  position: relative;
+  display: inline-block;
+  min-width: 4.25rem;
+  z-index: 1;
+}
+.frameNav,
+.sujestaobotao {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sujestaobotao {
+  border-radius: 40px;
+  border: 2px solid #fff;
+  padding: 1rem 2.681rem 1.063rem;
+}
+.frameNav {
+  margin: 0;
+  gap: 6.125rem;
+  max-width: calc(100% - 62px);
+  white-space: nowrap;
+  text-align: left;
+  font-size: 0.75rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+.frameChild,
+.frameDiv {
+  flex-shrink: 0;
+  debug_commit: 2554057;
+}
+.frameDiv {
+  align-self: stretch;
+  height: 2.644rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 26.206rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.frameContainer,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.vectorWrapper {
+  width: 55.125rem;
+  flex-direction: row;
+  padding: 0 4.563rem 0 4.594rem;
+  box-sizing: border-box;
+}
+.frameContainer {
+  width: 67.813rem;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+.listaC {
+  margin: 0;
+  position: absolute;
+  top: -0.075rem;
+  left: 24.531rem;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  width: 6.563rem;
+  height: 2.438rem;
+  min-width: 6.563rem;
+}
+.frameItem {
+  position: absolute;
+  top: -0.562rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.listaCParent {
+  height: 55.688rem;
+  width: 33.75rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -25.962rem;
+  left: -22.806rem;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  max-width: 100%;
+}
+.contem {
+  background: linear-gradient(
+    91.57deg,
+    #6dd58a,
+    #74e192 43.6%,
+    #347d46 64.59%,
+    #376d46 84.1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.conoscoENs {
+  font-size: 2.5rem;
+}
+.contemConoscoEContainer {
+  height: 3.5rem;
+  position: relative;
+  display: inline-block;
+}
+.comVocs {
+  font-size: 2.875rem;
+  background: linear-gradient(269deg, #346e43, #66c681, #66c681);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contamosComVocsContainer {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  font-size: 2.5rem;
+}
+.contemConoscoENsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  max-width: 100%;
+}
+.conheaNossosMembros,
+.exploreOsBastidores,
+.somosUmaComunidade {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+.todosContamTodos {
+  margin: 0;
+}
+.exploreOsBastidoresContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: 1rem;
+}
+.frameParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  width: 42.25rem;
+  gap: 1.813rem;
+  font-size: 2.875rem;
+  font-family: Montserrat;
+}
+.frameParent {
+  width: 82.225rem;
+  gap: 7.813rem;
+}
+.conditionalBranchChild {
+  height: 41.813rem;
+  width: 25.875rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 48.119rem;
+  bottom: -1.312rem;
+  z-index: 2;
+}
+.conditionalBranch {
+  width: 123.838rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 48.313rem;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Secular One";
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    gap: 3.875rem 7.813rem;
+  }
+  .conditionalBranch {
+    padding-bottom: 31.375rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .frameNav {
+    flex-wrap: wrap;
+    gap: 6.125rem 3.063rem;
+  }
+  .frameDiv {
+    height: auto;
+  }
+  .vectorWrapper {
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
+    box-sizing: border-box;
+  }
+  .listaC {
+    font-size: 1.625rem;
+  }
+  .contamosComVocsContainer,
+  .contemConoscoEContainer {
+    font-size: 2rem;
+  }
+  .frameParent {
+    gap: 1.938rem 7.813rem;
+  }
+  .conditionalBranch {
+    padding-bottom: 20.375rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameNav {
+    gap: 6.125rem 1.5rem;
+  }
+  .listaC {
+    font-size: 1.188rem;
+  }
+  .contamosComVocsContainer,
+  .contemConoscoEContainer {
+    font-size: 1.5rem;
+  }
+  .frameParent {
+    gap: 1rem 7.813rem;
+  }
+  .conditionalBranch {
+    padding-bottom: 13.25rem;
+    box-sizing: border-box;
+  }
+}
