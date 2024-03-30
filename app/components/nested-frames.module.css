@@ -1,0 +1,376 @@
+.linkedArrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: rgba(13, 13, 13, 0.32);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.frameFrames {
+  align-self: stretch;
+  width: 9.938rem;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(251.27deg, #66c681, #274d31);
+  z-index: 2;
+}
+.textFrame {
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+  margin-left: -7rem;
+}
+.metaFrames {
+  position: absolute;
+  top: 1.188rem;
+  left: 1.063rem;
+  width: 9.938rem;
+  height: 9.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.arrowFrames {
+  align-self: stretch;
+  height: 12.375rem;
+  position: relative;
+}
+.outlineArrowSmallRight {
+  height: 4.188rem;
+  width: 4.188rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.25rem;
+  left: -3.937rem;
+}
+.meta1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.vectorAlignment {
+  flex-direction: row;
+  position: relative;
+}
+.linkedEllipses,
+.socialMediaIcons,
+.vectorAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialMediaIcons {
+  flex-direction: row;
+  padding: 0 1.25rem;
+  font-size: 1.5rem;
+}
+.linkedEllipses {
+  width: 12.375rem;
+  flex-direction: column;
+  gap: 1.563rem;
+}
+.frameChild {
+  align-self: stretch;
+  height: 12.375rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgba(13, 13, 13, 0.32);
+  z-index: 1;
+}
+.b,
+.frameItem {
+  position: absolute;
+}
+.frameItem {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(251.27deg, #66c681, #274d31);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.b {
+  top: 2.563rem;
+  left: 2.313rem;
+  z-index: 3;
+}
+.ellipseGroup {
+  width: 9.938rem;
+  height: 9.938rem;
+  position: relative;
+  margin-top: -11.187rem;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.outlineArrowSmallRight1 {
+  height: 4.188rem;
+  width: 4.188rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.25rem;
+  left: -3.937rem;
+}
+.meta2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.outlineArrowSmallRightParent {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.linkedEllipses1,
+.linkedEllipsesInner,
+.outlineArrowSmallRightParent {
+  display: flex;
+  justify-content: center;
+}
+.linkedEllipsesInner {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1.188rem 0 0;
+  font-size: 1.5rem;
+}
+.linkedEllipses1 {
+  height: 15.75rem;
+  width: 13.25rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.875rem 0 0;
+  box-sizing: border-box;
+  gap: 1.563rem;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: rgba(13, 13, 13, 0.32);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.b1,
+.ellipseDiv {
+  position: relative;
+}
+.ellipseDiv {
+  align-self: stretch;
+  height: 9.938rem;
+  border-radius: 50%;
+  background: linear-gradient(251.27deg, #66c681, #274d31);
+  z-index: 2;
+}
+.b1 {
+  width: 7.563rem;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  z-index: 3;
+  margin-top: -7.375rem;
+}
+.frameDiv {
+  position: absolute;
+  top: 1.188rem;
+  left: 1.125rem;
+  width: 9.938rem;
+  height: 9.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipseContainer {
+  align-self: stretch;
+  height: 12.375rem;
+  position: relative;
+}
+.outlineArrowSmallRight2 {
+  height: 4.188rem;
+  width: 4.188rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.25rem;
+  left: -3.937rem;
+}
+.meta3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.outlineArrowSmallRightGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+.linkedEllipses2,
+.linkedEllipsesChild,
+.outlineArrowSmallRightGroup {
+  display: flex;
+  justify-content: center;
+}
+.linkedEllipsesChild {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1.563rem 0 0;
+  font-size: 1.5rem;
+}
+.linkedEllipses2 {
+  width: 12.875rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem 0 0;
+  box-sizing: border-box;
+  gap: 1.563rem;
+}
+.frameChild1,
+.frameChild2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+}
+.frameChild1 {
+  background-color: rgba(13, 13, 13, 0.32);
+  z-index: 1;
+}
+.frameChild2 {
+  background: linear-gradient(251.27deg, #66c681, #274d31);
+  z-index: 2;
+}
+.vectorLinesIcon {
+  height: 10.188rem;
+  width: 88.875rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.562rem;
+  left: -71.812rem;
+}
+.metaElements {
+  position: relative;
+  z-index: 3;
+}
+.ellipseParent1,
+.ellipseParent2,
+.vectorLinesParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vectorLinesParent {
+  align-items: flex-start;
+  padding: 1.25rem 0;
+  position: relative;
+  margin-left: -7.687rem;
+}
+.ellipseParent1,
+.ellipseParent2 {
+  align-items: center;
+}
+.ellipseParent2 {
+  height: 10rem;
+  width: 9.938rem;
+  padding: 0 2.188rem 0 0;
+  box-sizing: border-box;
+  margin-left: -11.125rem;
+}
+.ellipseParent1 {
+  align-self: stretch;
+  flex: 1;
+  padding: 0 1.188rem 0 0;
+}
+.outlineArrowSmallRight3 {
+  height: 4.188rem;
+  width: 4.188rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -1.25rem;
+  left: -3.937rem;
+}
+.meta4 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.linkedEllipsesInner1,
+.outlineArrowSmallRightContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.outlineArrowSmallRightContainer {
+  position: relative;
+}
+.linkedEllipsesInner1 {
+  padding: 0 0.688rem 0 0;
+  font-size: 1.5rem;
+}
+.linkedEllipses3 {
+  height: 15.75rem;
+  width: 12.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.563rem;
+}
+.nestedFrames,
+.quadrupleFrames {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.quadrupleFrames {
+  flex: 1;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.nestedFrames {
+  width: 72.75rem;
+  justify-content: flex-start;
+  padding: 0 0 8.75rem 0.313rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 4rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1050px) {
+  .quadrupleFrames {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+
+  .nestedFrames {
+    padding-bottom: 5.688rem;
+    box-sizing: border-box;
+  }
+}

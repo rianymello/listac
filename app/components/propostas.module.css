@@ -1,0 +1,48 @@
+.metas1234,
+.propostasChild {
+  margin: 0 !important;
+  position: absolute;
+}
+.propostasChild {
+  width: 89.25rem;
+  height: 10.188rem;
+  top: 0;
+  left: 18.156rem;
+}
+.metas1234 {
+  width: 72.438rem;
+  top: calc(50% - 135.5px);
+  left: calc(50% - 579.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25rem;
+  max-width: 100%;
+  z-index: 1;
+}
+.propostas {
+  align-self: stretch;
+  height: 16.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 2554057;
+  z-index: 1;
+  text-align: left;
+  font-size: 4rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1350px) {
+  .metas1234 {
+    flex-wrap: wrap;
+  }
+  .propostas {
+    height: auto;
+    min-height: 271;
+  }
+}

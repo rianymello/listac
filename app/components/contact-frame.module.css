@@ -1,0 +1,327 @@
+.maskGroupIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.entreEmContato,
+.queremosTeOuvir {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  z-index: 2;
+}
+
+.entreEmContato {
+  font-weight: 700;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.queremosTeOuvir {
+  font-weight: 300;
+}
+
+.textFrame {
+  width: 25.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.ellipseFrames,
+.vectorFrame1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 50%;
+}
+
+.ellipseFrames {
+  height: 6.25rem;
+  align-self: center;
+  width: 20px;
+  z-index: 2;
+}
+
+.vectorFrame1 {
+  height: 4.375rem;
+  background: linear-gradient(264.09deg, #346e43, #122f1a);
+  z-index: 3;
+}
+
+.textFrameIcon {
+  position: absolute;
+  top: 0.813rem;
+  left: 0.875rem;
+  width: 2.125rem;
+  height: 2.125rem;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.frameInstance {
+  width: 3.75rem;
+  height: 3.75rem;
+  position: relative;
+  margin-top: -4.062rem;
+}
+
+.vectorFrame {
+  width: 4.375rem;
+  height: 4.375rem;
+  justify-content: flex-start;
+  margin-top: -5.312rem;
+}
+
+.contactFrame1,
+.frameFrame,
+.maskGroupFrame,
+.vectorFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frameFrame {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -3.125rem;
+  left: 36.625rem;
+  justify-content: flex-start;
+}
+
+.contactFrame1,
+.maskGroupFrame {
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.maskGroupFrame {
+  justify-content: flex-end;
+  padding: 6rem 1.25rem 6rem 1.563rem;
+  box-sizing: border-box;
+  position: relative;
+  gap: 0.688rem;
+  min-height: 18.938rem;
+}
+
+.contactFrame1 {
+  justify-content: center;
+}
+
+.nossas,
+.propostas {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  z-index: 1;
+}
+
+.propostas {
+  font-weight: 700;
+}
+
+.textFrame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+
+.desejaConhecerMais,
+.estoProgredindoAqui {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+
+.deCadaIniciativa {
+  margin: 0;
+}
+
+.desejaConhecerMaisContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.parentSocialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.188rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: right;
+  font-size: 1rem;
+}
+
+.groupFrames {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 1.25rem;
+}
+
+.contactFrame,
+.textFrame1 {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.textFrame1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0.813rem 0 0.438rem;
+}
+
+.contactFrame {
+  width: 100% !important; /* Set width to 100% */
+  max-width: 82.375rem; /* Set a maximum width */
+  margin: 0 auto; /* Center the element horizontally */
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.25rem;
+  gap: 9.438rem;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 2.25rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+.maskGroupIcon {
+  position: static; /* Remove absolute positioning */
+  max-height: 250px; /* Adjust height */
+}
+
+.ellipseFrames,
+.vectorFrame1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 50%;
+}
+
+.textFrame {
+  width: auto; /* Set width to auto for responsiveness */
+  padding: 0; /* Remove padding */
+  flex-direction: column; /* Change to column layout */
+  align-items: center; /* Center horizontally */
+}
+
+.frameFrame {
+  position: static; /* Remove absolute positioning */
+  margin: 1rem 0; /* Adjust margin */
+  width: 100%; /* Set width to 100% for responsiveness */
+}
+@media screen and (max-width: 1200px) {
+  .contactFrame {
+    gap: 4.688rem 9.438rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .entreEmContato,
+  .nossas,
+  .propostas,
+  .queremosTeOuvir {
+    font-size: 1.813rem;
+  }
+  .groupFrames {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactFrame {
+    gap: 2.375rem 9.438rem;
+  }
+}
+.contactFrame {
+  gap: 1.188rem 9.438rem;
+}
+
+.maskGroupIcon {
+  position: static; /* Remove absolute positioning */
+  max-height: 250px; /* Adjust height */
+}
+
+
+@media screen and (max-width: 450px) {
+  .entreEmContato,
+  .nossas,
+  .propostas,
+  .queremosTeOuvir {
+    font-size: 1rem;
+  }
+  .contactFrame {
+    gap: 1.188rem 9.438rem;
+  }
+
+  .maskGroupIcon {
+    position: static; /* Remove absolute positioning */
+    max-height: 250px; /* Adjust height */
+  }
+
+  .ellipseFrames,
+  .vectorFrame1 {
+    width: 100%; /* Set width to 100% for responsiveness */
+    max-width: none; /* Remove max-width */
+  }
+
+
+  .frameFrame {
+    position: static; /* Remove absolute positioning */
+    margin: 1rem 0; /* Adjust margin */
+    width: 100%; /* Set width to 100% for responsiveness */
+  }
+}
+/* Existing CSS styles */
+
+@media screen and (max-width: 856px) {
+  .textFrame1 {
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the container */
+  }
+
+  .groupFrames {
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center horizontally */
+    gap: 1rem; /* Adjust gap */
+  }
+  .parentSocialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0.188rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: center;
+    font-size: 1rem;
+  }
+}

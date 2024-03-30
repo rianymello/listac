@@ -1,0 +1,61 @@
+.pessoa2Dsg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ngela {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 5.625rem;
+  z-index: 1;
+}
+.ngelaWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3.188rem 0 3.063rem;
+}
+.presidenteDaAssembleia {
+  position: relative;
+  font-size: 0.75rem;
+  z-index: 1;
+}
+.pessoa11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 16.438rem 3.688rem 4.563rem 3.813rem;
+  position: relative;
+  gap: 3.625rem;
+  flex-shrink: 0;
+  debug_commit: 2554057;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 450px) {
+  .ngela {
+    font-size: 1.188rem;
+  }
+  .pessoa11 {
+    gap: 1.813rem 3.625rem;
+    padding: 10.688rem 1.25rem 2.938rem;
+    box-sizing: border-box;
+  }
+}

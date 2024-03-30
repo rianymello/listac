@@ -1,0 +1,8 @@
+.image8 {
+  width: 876px;
+  height: 866px;
+  background-image: url(/image-8@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

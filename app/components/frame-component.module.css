@@ -1,0 +1,185 @@
+.contem {
+  background: linear-gradient(91.57deg, #6dd58a, #193521, #347d46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.conoscoENos {
+  font-size: 2.5rem;
+}
+.contemConoscoEContainer {
+  height: 3.5rem;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.comVocs {
+  font-size: 2.875rem;
+  background: linear-gradient(269deg, #346e43, #66c681, #66c681);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contamosComVocsContainer {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  font-size: 2.5rem;
+}
+.metaFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.25rem;
+  max-width: 100%;
+}
+.twitterLinkedinYouTubePint {
+  height: 35.063rem;
+  width: 14.881rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -18.375rem;
+  left: -4.031rem;
+}
+.conheaNossosMembros,
+.exploreOsBastidores,
+.somosUmaComunidade {
+  margin-block-start: 0;
+  margin-block-end: 6px;
+}
+.todosContamTodos {
+  margin: 0;
+}
+.exploreOsBastidoresContainer {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.twitterLinkedinYouTubePintParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: 1rem;
+}
+.buildYourWorldTextChild {
+  height: 3rem;
+  width: 13.375rem;
+  position: relative;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #346e43, #66c681);
+  display: none;
+}
+.vejaNossaAo {
+  position: relative;
+  font-size: 0.75rem;
+  font-family: Montserrat;
+  color: #fff;
+  text-align: left;
+  z-index: 2;
+}
+.buildYourWorldText {
+  cursor: pointer;
+  border: 0;
+  padding: 1rem 0.75rem 1.063rem 1.063rem;
+  background-color: transparent;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #346e43, #66c681);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.arrowSmallRightInstance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.813rem;
+  max-width: 100%;
+}
+.rectangleText {
+  margin: 0;
+  align-self: stretch;
+  width: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+}
+.headerFrame {
+  width: 27rem;
+  height: 2.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  font-size: 2.25rem;
+}
+.arrowSmallRightInstanceParent,
+.homeInner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.arrowSmallRightInstanceParent {
+  width: 42.25rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4.438rem;
+}
+.homeInner {
+  width: 84.125rem;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1.25rem 3.5rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 2.875rem;
+  color: #fff;
+  font-family: Montserrat;
+}
+@media screen and (max-width: 1050px) {
+  .contamosComVocsContainer,
+  .contemConoscoEContainer {
+    font-size: 2rem;
+  }
+  .rectangleText {
+    font-size: 1.813rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .arrowSmallRightInstanceParent {
+    gap: 2.188rem 4.438rem;
+  }
+  .homeInner {
+    padding-bottom: 2.25rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contamosComVocsContainer,
+  .contemConoscoEContainer {
+    font-size: 1.5rem;
+  }
+  .rectangleText {
+    font-size: 1.375rem;
+  }
+  .arrowSmallRightInstanceParent {
+    gap: 1.125rem 4.438rem;
+  }
+}
