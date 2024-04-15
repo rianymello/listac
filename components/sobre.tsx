@@ -13,7 +13,9 @@ function Sobre() {
         width={450}
         height={450}
       />
-      <div>
+            <div className={styles.text}>
+
+      <div className={styles.sobrenos}>
       <p className={styles.sobre}>Sobre </p>
         <p className={styles.nos}> nós</p>
         </div>
@@ -25,7 +27,8 @@ function Sobre() {
         excelência acadêmica e trilhamos um caminho de aprendizado, onde cada passo 
         é uma conquista compartilhada. 
         #ContemConosco </p>
-        
+        </div>
+
     </div>
   );
 }
