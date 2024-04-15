@@ -1,0 +1,16 @@
+.bannercontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.text {
+    padding: 3rem;
+}
+
+/* Eu vou trocar esse verde feio futuramente, se você achou feio demais sinta-se a vontade pra trocar você */
+.textdiferente {
+    font-size: 2.5rem;
+    color: #06d63a;
+    margin-bottom: 3rem;
+}
