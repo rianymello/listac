@@ -1,0 +1,44 @@
+.container{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+
+.propostastitulos {
+    display: flex;
+    flex-direction: row;
+}
+
+.esquerda {
+    margin-right: 60%;
+}
+
+.propostaspropostas {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.meta {
+    display: flex;
+    background-color: rgb(64, 255, 71);
+    color: black;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.containermeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
