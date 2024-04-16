@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .containercontatos {
+    text-align: center;
+  }
+  
+  .imagemContainer {
+    position: relative;
+  }
+  
+  .sobreposicao {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Aqui você pode ajustar a transparência alterando o valor 0.5 */
+    border-radius: 40px;
+
+  }
+
+  .imagem {
+    border-radius: 40px;
+  }
+
+  .textosobreposto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1; /* Para garantir que o texto fique sobre a sobreposição */
+  }
+  
+  .textosobreposto2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1; /* Para garantir que o texto fique sobre a sobreposição */
+  }

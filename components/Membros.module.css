@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conheca, .membros {
+    font-size: 30px;
+}
+
+.containertitulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

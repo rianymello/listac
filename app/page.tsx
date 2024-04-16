@@ -3,7 +3,8 @@ import styles from '../app/globals.css'
 import Navbar from '../components/navbar';
 import Banner from '../components/banner';
 import Sobre from '../components/sobre';
-import Membros from '../components/membros'
+import Membros from '../components/membros';
+import Contato from '../components/contato'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Banner />
     <Sobre />
     <Membros />
+    <Contato />
     </>
   );
 }
